@@ -7,10 +7,10 @@ const Index = () => {
   return (
     <Container maxW="container.xl" p={4}>
       <VStack spacing={10}>
-        <Heading as="h1" size="2xl" textAlign="center">
+        <Heading as="h1" size="3xl" textAlign="center" mb={4}>
           인공지능 기술 회사
         </Heading>
-        <Text fontSize="xl" textAlign="center">
+        <Text fontSize="2xl" textAlign="center" mb={8}>
           최첨단 AI 솔루션을 제공하는 한국의 선도 기업
         </Text>
         <Image borderRadius="md" src="https://images.unsplash.com/photo-1507146153580-69a1fe6d8aa1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxBSSUyMHRlY2hub2xvZ3l8ZW58MHx8fHwxNzEwNzQyMDMxfDA&ixlib=rb-4.0.3&q=80&w=1080" alt="AI Technology" />
@@ -19,6 +19,10 @@ const Index = () => {
           <ProductFeature icon={FaBrain} title="스마트 학습" description="지속적인 학습으로 더욱 정확한 결과를 도출합니다." />
           <ProductFeature icon={FaCode} title="개발자 친화적" description="간편한 API와 다양한 개발 도구를 지원합니다." />
         </SimpleGrid>
+        <Text fontSize="lg" textAlign="center" mb={8}>
+          인공지능 기술 회사는 2015년에 설립되어 지속적인 연구 개발을 통해 세계 최고 수준의 인공지능 기술력을 보유하고 있습니다. 다양한 산업 분야에 최적화된 AI 솔루션을 제공하며, 고객 맞춤형 컨설팅을 통해 비즈니스 혁신을 지원하고 있습니다. 글로벌 시장 진출을 위해 해외 유수의 기업들과 파트너십을 맺고 활발히 교류하고 있습니다.
+        </Text>
+
         <Button colorScheme="teal" size="lg" leftIcon={<Icon as={FaPlus} />}>
           더 알아보기
         </Button>
